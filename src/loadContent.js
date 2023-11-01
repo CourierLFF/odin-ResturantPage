@@ -14,6 +14,7 @@ export function loadContent() {
 
     const resturantDescription = document.createElement("p");
     resturantDescription.textContent = "Here at the Odin Resturant we pride ourselves on delicious dishes for you and your whole family!";
+    resturantDescription.classList.add("top-part");
     container.appendChild(resturantDescription);
 
     const mainH3 = document.createElement("h3");
